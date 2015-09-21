@@ -30,7 +30,9 @@ body {
   width: 100%;
   padding-top: 8em; }
   .app h2 {
-    text-align: center; }
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5em; }
   .app .container {
     display: flex;
     justify-content: flex-start; }
@@ -40,7 +42,6 @@ body {
       .app .container .Grid Grid-cell {
         border: 1px solid black; }
     .app .container .main {
-      height: 190em;
       padding-top: 2em; }
       .app .container .main .projectImg {
         height: 30%;

@@ -49,6 +49,8 @@ width:100%;
 padding-top:8em;
   h2{
   text-align:center;
+  color:$primary-color;
+  font-size:$header-size;
   }
   .container{
   display:flex;
@@ -62,7 +64,6 @@ padding-top:8em;
     }
 
     .main{
-      height:190em;
       padding-top:2em;
       .projectImg{
       height:30%;
