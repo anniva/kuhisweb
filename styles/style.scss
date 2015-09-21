@@ -1,0 +1,73 @@
+$link-color: rgba(244, 123, 32, 0.50);
+$primary-color: rgba(0, 0, 0, 0.5);
+$logo-color: rgba(0, 0, 0, 0.75);
+$header-size: 1.5em;
+
+
+
+body{
+  font-family:latha;
+  color:$primary-color;
+}
+
+
+.header{
+  position:fixed;
+  width:100%;
+  background-color:white;
+  display:flex;
+  justify-content:space-around;
+    #logo{
+      h1{
+      font-size:$header-size;  
+      float:left;
+      text-align: center;
+      color: $logo-color;
+      }
+      img{
+      } 
+    }
+  .links{
+    float:right;
+    margin-top:3em;
+    margin-left:3em;
+    a{
+    padding-left:1em;
+    text-decoration:none;
+    color:$primary-color;
+    font-size:$header-size;
+    }
+    a:hover{
+    color:$link-color;
+    }
+  }
+  border-bottom: 1px solid $primary-color;
+}
+
+.app{
+width:100%;
+padding-top:8em;
+  h2{
+  text-align:center;
+  }
+  .container{
+  display:flex;
+  justify-content:flex-start;
+    .Grid{  
+    width:100%;
+    justify-content:space-around;
+      Grid-cell{
+        border: 1px solid black;
+      }
+    }
+
+    .main{
+      height:190em;
+      padding-top:2em;
+      .projectImg{
+      height:30%;
+      width:30%;
+      }
+    }
+  }
+}
