@@ -57,7 +57,6 @@ width:100%;
   font-size:$header-size;
   }
   .container{
-  margin-top:-22em;
   width:100%;
   display:inline-flex;
     .main{
@@ -73,9 +72,9 @@ width:100%;
             background-color:$description-color;
             height:18em;
             width:18em;
-            position: relative;
-            top:305px;
-            left:65px;
+            position:relative;
+            top:-19.5em;
+            margin-bottom:-19.5em;
             border:1px black solid;
               p{
               color:$desc-link-color;

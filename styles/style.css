@@ -37,7 +37,6 @@ body {
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.5em; }
   .app .container {
-    margin-top: -22em;
     width: 100%;
     display: inline-flex; }
     .app .container .main {
@@ -54,8 +53,8 @@ body {
           height: 18em;
           width: 18em;
           position: relative;
-          top: 305px;
-          left: 65px;
+          top: -19.5em;
+          margin-bottom: -19.5em;
           border: 1px black solid; }
           .app .container .main .card .descriptionBox p {
             color: rgba(244, 123, 32, 0.5);
