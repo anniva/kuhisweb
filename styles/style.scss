@@ -54,14 +54,21 @@ padding-top:8em;
   }
   .container{
   width:100%;
+  display:inline-flex;
     .main{
     padding-top:2em;
       .card{
+        width:33%;
         float:left;
         border: 1px solid black;
           .projectImg{
           height:40%;
-          width:40%;  
+          width:40%;
+          .descriptionBox{
+          color:pink;
+          height:10px;
+          width:20px;
+          }
         }
       }
     }

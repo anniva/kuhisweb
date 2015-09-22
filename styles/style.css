@@ -34,14 +34,20 @@ body {
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.5em; }
   .app .container {
-    width: 100%; }
+    width: 100%;
+    display: inline-flex; }
     .app .container .main {
       padding-top: 2em; }
       .app .container .main .card {
+        width: 33%;
         float: left;
         border: 1px solid black; }
         .app .container .main .card .projectImg {
           height: 40%;
           width: 40%; }
+          .app .container .main .card .projectImg .descriptionBox {
+            color: pink;
+            height: 10px;
+            width: 20px; }
 
 /*# sourceMappingURL=style.css.map */
