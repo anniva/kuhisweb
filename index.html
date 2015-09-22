@@ -26,17 +26,20 @@
       <div class="main" ng-controller="MainController">
       
         <div class="card" ng-repeat="project in projects">
-          <center><img class="projectImg" ng-src="{{project.image}}">
+          <div class="descriptionBox" >
+            <p> {{project.description}}</p>
+          </div>
+          <center><img class="projectImg" ng-src="{{project.image}}" ng-mouseover='showDesc(project)'>
           <p class="name"> {{project.name}} </p> </center>
-            <div class="descriptionBox">
-              <p> {{project.description}}</p>
-            </div>
+
         </div>
      
       </div>
     </div>
 </div>
 
+<!--ng-show="show"-->
+<!-- ng-mouseenter="show = !show" ng-mouseleave="!show = show"-->
 
 </div>
 <script src="js/app.js"></script>

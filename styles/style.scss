@@ -2,8 +2,8 @@ $link-color: rgba(244, 123, 32, 0.50);
 $primary-color: rgba(0, 0, 0, 0.5);
 $logo-color: rgba(0, 0, 0, 0.75);
 $header-size: 1.5em;
-
-
+$description-color: rgba(255, 255, 255, 0.30);
+$desc-link-color:rgba(244, 123, 32, 0.50);
 
 body{
   font-family:latha;
@@ -19,6 +19,7 @@ body{
   background-color:white;
   display:flex;
   justify-content:space-around;
+  z-index:1000;
     #logo{
       h1{
       font-size:$header-size;  
@@ -48,29 +49,44 @@ body{
 
 .app{
 width:100%;
-padding-top:8em;
+
   h2{
+  padding-top:8em;
   text-align:center;
   color:$primary-color;
   font-size:$header-size;
   }
   .container{
+  margin-top:-22em;
   width:100%;
   display:inline-flex;
     .main{
     padding-top:2em;
       .card{
+        display:inline;
+        padding-top:2em;
+        margin-top:1em;
         width:33%;
         float:left;
-          .projectImg{
-          height:70%;
-          width:70%;
           .descriptionBox{
-          color:pink;
-          height:10px;
-          width:20px;
+            visibility:show;
+            background-color:$description-color;
+            height:18em;
+            width:18em;
+            position: relative;
+            top:305px;
+            left:65px;
+            border:1px black solid;
+              p{
+              color:$desc-link-color;
+              text-align:center;
+              }
           }
-        }
+          .projectImg{
+          height:20em;
+          width:20em;
+          }
+
       }
     }
   }

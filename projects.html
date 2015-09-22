@@ -16,5 +16,25 @@
   </div>
 
 
+<div class="app" ng-app="App">
+    <h2>SHOWCASE</h2>
+    
+    <div class="container">
+      <div class="main" ng-controller="MainController">
+      
+        <div class="card" ng-repeat="project in projects">
+          <center><img class="projectImg" ng-src="{{project.image}}">
+          <p class="name"> {{project.name}} </p> </center>
+            <div class="descriptionBox">
+              <p> {{project.description}}</p>
+            </div>
+        </div>
+     
+      </div>
+    </div>
+</div>
+
+
+
 </body>
 </html>
