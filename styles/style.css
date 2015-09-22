@@ -40,11 +40,10 @@ body {
       padding-top: 2em; }
       .app .container .main .card {
         width: 33%;
-        float: left;
-        border: 1px solid black; }
+        float: left; }
         .app .container .main .card .projectImg {
-          height: 40%;
-          width: 40%; }
+          height: 70%;
+          width: 70%; }
           .app .container .main .card .projectImg .descriptionBox {
             color: pink;
             height: 10px;
