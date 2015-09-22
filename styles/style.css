@@ -34,17 +34,14 @@ body {
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.5em; }
   .app .container {
-    display: flex;
-    justify-content: flex-start; }
-    .app .container .Grid {
-      width: 100%;
-      justify-content: space-around; }
-      .app .container .Grid Grid-cell {
-        border: 1px solid black; }
+    width: 100%; }
     .app .container .main {
       padding-top: 2em; }
-      .app .container .main .projectImg {
-        height: 30%;
-        width: 30%; }
+      .app .container .main .card {
+        float: left;
+        border: 1px solid black; }
+        .app .container .main .card .projectImg {
+          height: 40%;
+          width: 40%; }
 
 /*# sourceMappingURL=style.css.map */

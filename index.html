@@ -24,9 +24,9 @@
     <h2>SHOWCASE</h2>
     
     <div class="container">
-      <div class="main Grid" ng-controller="MainController">
+      <div class="main" ng-controller="MainController">
       
-        <div ng-repeat="project in projects" class="Grid-cell">
+        <div class="card" ng-repeat="project in projects">
           <img class="projectImg" ng-src="{{project.image}}">
           <p class="name"> {{project.name}} </p>
             <div class="descriptionBox">

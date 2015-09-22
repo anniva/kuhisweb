@@ -53,21 +53,16 @@ padding-top:8em;
   font-size:$header-size;
   }
   .container{
-  display:flex;
-  justify-content:flex-start;
-    .Grid{  
-    width:100%;
-    justify-content:space-around;
-      Grid-cell{
-        border: 1px solid black;
-      }
-    }
-
+  width:100%;
     .main{
-      padding-top:2em;
-      .projectImg{
-      height:30%;
-      width:30%;
+    padding-top:2em;
+      .card{
+        float:left;
+        border: 1px solid black;
+          .projectImg{
+          height:40%;
+          width:40%;  
+        }
       }
     }
   }
