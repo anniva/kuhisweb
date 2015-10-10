@@ -91,12 +91,19 @@ $desc-margin: ($desc-side/2)-4em;;
 .filter__item{
   border:none;
   background:none;
-  //outline:none;
+  color:$primary-color;
+  outline:none;
   padding: 2em;
-  font-weight:700; 
+  //font-weight:700; 
+  font-size:$header-size;
+
 // border: 1px solid black;
 }
 
+.filter__item:hover{
+  color:$link-color;
+
+}
 
 .grid{
   width:100%;
@@ -147,7 +154,7 @@ $desc-margin: ($desc-side/2)-4em;;
 .grid__item-desc:hover .grid__item-desc-text{
   opacity:1;
   margin-top: $desc-margin;
- // vertical-align: middle;
+ 
 
 }
 

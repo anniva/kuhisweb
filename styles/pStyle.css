@@ -55,8 +55,13 @@ body {
 .filter__item {
   border: none;
   background: none;
+  color: rgba(0, 0, 0, 0.5);
+  outline: none;
   padding: 2em;
-  font-weight: 700; }
+  font-size: 1.5em; }
+
+.filter__item:hover {
+  color: rgba(244, 123, 32, 0.5); }
 
 .grid {
   width: 100%;

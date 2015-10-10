@@ -40,6 +40,48 @@ var data = [
   description:'Description 6',
   id: ' theory',
   showcase: true,
+  },
+  {
+  name: 'New Project',
+  image:'images/cube7.jpg',
+  description:'Description 7',
+  id: ' theory',
+  showcase: true,
+  },
+  {
+  name: 'New Project',
+  image:'images/cube7.jpg',
+  description:'Description 8',
+  id: ' theory',
+  showcase: true,
+  },
+  {
+  name: 'New Project',
+  image:'images/cube7.jpg',
+  description:'Description 9',
+  id: ' practise',
+  showcase: true,
+  },
+  {
+  name: 'New Project',
+  image:'images/cube7.jpg',
+  description:'Description 10',
+  id: ' practise',
+  showcase: true,
+  },
+  {
+  name: 'New Project',
+  image:'images/cube7.jpg',
+  description:'Description 11',
+  id: ' theory',
+  showcase: true,
+  },
+  {
+  name: 'New Project',
+  image:'images/cube7.jpg',
+  description:'Description 12',
+  id: ' theory',
+  showcase: true,
   }];
 
 var item = document.getElementsByClassName('js-item');
