@@ -27,8 +27,9 @@ body{
 
 
 .header{
-  margin-top:0px;
-  padding-top:0px;
+  margin-top:0;
+  padding-top:0;
+  padding-bottom:0;
   position:fixed;
   width:100%;
   background-color:white;
@@ -39,6 +40,7 @@ body{
       h1{
       padding:0;
       line-height: 100%;
+      padding-bottom:0;
       font-size:$header-size;  
       float:left;
       text-align: center;
@@ -88,7 +90,7 @@ $desc-margin: ($desc-side/2)-4em;;
 
 .filter__item{
  padding: 2em;
- font-weight:700;
+ font-weight:700; 
 // border: 1px solid black;
 }
 
@@ -152,4 +154,13 @@ $desc-margin: ($desc-side/2)-4em;;
 
 .grid__item-title{
   text-align:center;
+}
+
+@media screen and (min-width: 480px) {
+  .grid{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    
+  }
 }

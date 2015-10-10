@@ -136,3 +136,12 @@ $desc-margin: ($desc-side/2)-4em;;
 .grid__item-title{
   text-align:center;
 }
+
+@media screen and (min-width: 480px) {
+  .grid{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    
+  }
+}

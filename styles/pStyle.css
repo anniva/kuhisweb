@@ -12,8 +12,9 @@ body {
   padding-top: 0; }
 
 .header {
-  margin-top: 0px;
-  padding-top: 0px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   position: fixed;
   width: 100%;
   background-color: white;
@@ -24,6 +25,7 @@ body {
   .header #logo h1 {
     padding: 0;
     line-height: 100%;
+    padding-bottom: 0;
     font-size: 1.5em;
     float: left;
     text-align: center;
@@ -99,5 +101,11 @@ body {
 
 .grid__item-title {
   text-align: center; }
+
+@media screen and (min-width: 480px) {
+  .grid {
+    width: 100%;
+    display: flex;
+    justify-content: center; } }
 
 /*# sourceMappingURL=pStyle.css.map */
