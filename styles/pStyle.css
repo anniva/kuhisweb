@@ -43,7 +43,16 @@ body {
 .tupperware {
   width: 100%;
   margin: auto;
-  padding-top: 12em; }
+  padding-top: 8em; }
+
+.filter {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.filter__item {
+  padding: 2em;
+  font-weight: 700; }
 
 .grid {
   width: 100%;
@@ -91,4 +100,4 @@ body {
 .grid__item-title {
   text-align: center; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=pStyle.css.map */

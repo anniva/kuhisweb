@@ -24,7 +24,7 @@ var data = [
   name: 'BAT',
   image:'images/cube4.jpg',
   description:'Description 4',
-  id: 'theory',
+  id: 'professional',
   showcase: true,
   },
   {
