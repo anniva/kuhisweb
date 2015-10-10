@@ -1,6 +1,12 @@
+html {
+  margin-top: 0;
+  padding-top: 0; }
+
 body {
   font-family: latha;
-  color: rgba(0, 0, 0, 0.5); }
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+  padding-top: 0; }
 
 .header {
   margin-top: 0px;
@@ -29,38 +35,55 @@ body {
     .header .links a:hover {
       color: rgba(244, 123, 32, 0.5); }
 
-.app {
-  width: 100%; }
-  .app h2 {
-    padding-top: 8em;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 1.5em; }
-  .app .container {
-    width: 100%;
-    display: inline-flex; }
-    .app .container .main {
-      padding-top: 2em; }
-      .app .container .main .card {
-        display: inline;
-        padding-top: 2em;
-        margin-top: 1em;
-        width: 33%;
-        float: left; }
-        .app .container .main .card .descriptionBox {
-          visibility: show;
-          background-color: rgba(255, 255, 255, 0.3);
-          height: 18em;
-          width: 18em;
-          position: relative;
-          top: -19.5em;
-          margin-bottom: -19.5em;
-          border: 1px black solid; }
-          .app .container .main .card .descriptionBox p {
-            color: rgba(244, 123, 32, 0.5);
-            text-align: center; }
-        .app .container .main .card .projectImg {
-          height: 20em;
-          width: 20em; }
+.tupperware {
+  width: 100%;
+  margin: auto;
+  padding-top: 12em; }
+
+.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.grid__item-Clover {
+  width: 35em;
+  height: 35em;
+  margin-bottom: 3em; }
+
+.grid__item {
+  width: 28em;
+  height: 28em;
+  margin-left: 3.5em;
+  background-position: cover;
+  background-size: contain; }
+
+.grid__item-desc {
+  opacity: 0;
+  height: 28em;
+  width: 28em;
+  margin-left: 0em;
+  margin-top: 0em;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: opacity 1s; }
+
+.grid__item-desc-text {
+  opacity: 100 !important;
+  margin-top: 7em;
+  text-align: center;
+  transition: margin-top 1s;
+  color: white;
+  text-align: center; }
+
+.grid__item-desc:hover .grid__item-desc-text {
+  opacity: 1;
+  margin-top: 10em; }
+
+.grid__item:hover .grid__item-desc {
+  opacity: 1; }
+
+.grid__item-title {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
