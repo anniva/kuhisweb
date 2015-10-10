@@ -45,13 +45,14 @@ var data = [
 var item = document.getElementsByClassName('js-item');
 var descr = document.getElementsByClassName('js-hidden-text');
 var title = document.getElementsByClassName('js-title');
+var itemContainers = document.getElementsByClassName('js-item-container');
 var dLength=data.length;
 
 document.onload =setData(); // Inital setup
 
 
-
-  function setData(){
+//Gets data for containers
+function setData(){
   for(var i=0; i<dLength; i++){
    item[i].style.backgroundImage = "url("+ data[i].image +")";
    descr[i].innerHTML = data[i].description;
@@ -59,23 +60,27 @@ document.onload =setData(); // Inital setup
    sortClassCheckerSetter(i);
   }
 }
-//setData();
+
 
 
 //Adds a class to item by id === either Theory or Practise if item doesn't have class 
 function sortClassCheckerSetter(pos){
-  if(item[pos].className.indexOf('theory') !== -1 || item[pos].className.indexOf('prectise') !== -1 ){
+  if(item[pos].className.indexOf('theory') !== -1 || item[pos].className.indexOf('practise') !== -1 ){
     return true;
   }else{
-    item[pos].className += data[pos].id;
+    item[pos].parentNode.className += data[pos].id; //Could maybe change this... 
   }
 }
 
 
-function filterData(filter){
-
-  
-
-
+//Filters by class 
+function filterFunction(filter){
+  for(var i=0; i<itemContainers.length; i++){
+    if(itemContainers[i].className.indexOf(filter)==-1){
+      itemContainers[i].style.display='none';
+    }else{
+      itemContainers[i].style.display='block';
+    }
+  }
 }
 

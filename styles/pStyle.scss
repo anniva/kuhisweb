@@ -89,8 +89,11 @@ $desc-margin: ($desc-side/2)-4em;;
 }
 
 .filter__item{
- padding: 2em;
- font-weight:700; 
+  border:none;
+  background:none;
+  //outline:none;
+  padding: 2em;
+  font-weight:700; 
 // border: 1px solid black;
 }
 

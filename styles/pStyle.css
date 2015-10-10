@@ -53,6 +53,8 @@ body {
   justify-content: center; }
 
 .filter__item {
+  border: none;
+  background: none;
   padding: 2em;
   font-weight: 700; }
 
